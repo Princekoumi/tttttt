@@ -5,12 +5,22 @@
     /* background-color:#333; */
 
 }
+.body{
+   background-image: url("style/backimage.jpg");
+   background-color:#f2f2f2;
+   background-size: cover;
+   background-repeat: norepeat;
+   background-position:center;
+}
+
 .main{
     width: 100%; 
-    /* background:line-gradient(totop, rgba(0,0,0.5)50%,rgba(0.0.0.5)50%),url(1.jpg); */
+     background:line-gradient(totop, rgba(0,0,0.5)50%,rgba(0.0.0.5)50%);
     height:109vh;
     /* background-color: red; */
-    background-color:#f3f3ff;
+    background-position: center;
+    background-size:cover;
+
 }
 .navbar{
     width: 100%;
@@ -181,7 +191,7 @@ ul{
    font-family:'Times New Roman';
    font-size: 50px;
    padding-left: 20px;
-   margin-top: 9%;
+   margin-top: 1%;
    letter-spacing: 2px;
 }
 .content.cn{
@@ -209,7 +219,7 @@ ul{
 }
 .form{
     width:250px;
-    hieght:380px;
+    height:380px;
     background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position:absolute;
     top:-20px;
@@ -241,3 +251,5 @@ ul{
    font-family: sans-serif;
 }
 
+      
+      
